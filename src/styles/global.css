@@ -1,0 +1,118 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  --main-font-highlight: gelasio;
+}
+.divContainer {
+  margin: 0 auto;
+  max-width: 85vw;
+}
+h1,
+h2 {
+  font-family: var(--main-font-highlight);
+}
+header {
+  position: fixed;
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  justify-content: space-between;
+  align-items: baseline;
+  height: calc(10px + 9vmin);
+}
+#logo {
+  color: black;
+  margin-top: 1vw;
+  font-size: calc(10px + 7vmin);
+  font-weight: normal;
+  margin-left: 2vmin;
+  font-family: var(--main-font-highlight);
+}
+.headerMenu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  font-size: calc(10px + 1vmin);
+}
+.headerMenu li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2vmin;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textRotator {
+  font-family: var(--main-font-highlight);
+  font-size: calc(10px + 5vmin);
+  text-anchor: middle;
+  width: 28vw;
+}
+.divPage {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.divText {
+  display: flex;
+  flex-direction: column;
+}
+.divBottomPage {
+  min-height: calc(100vh - (20px + 14vmin));
+}
+.anchorReposition {
+  display: block;
+  position: relative;
+  top: calc(-10px - 13vmin);
+}
+p {
+  width: 48%;
+  min-width: 325px;
+  text-align: justify;
+}
+.pAlignRight {
+  align-self: flex-end;
+}
+#contactForm {
+  width: 30vw;
+  min-width: 325px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+}
+.textbox {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+textarea {
+  height: 200px;
+  width: 100%;
+  resize: vertical;
+  padding: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.button {
+  width: 100%;
+  border: 1px solid lightgrey;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px;
+}

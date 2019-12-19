@@ -27,27 +27,14 @@ const ContactForm = () => {
     }
   }
   return (
-    <form
-      id="contactForm"
-      onSubmit={handleSubmit}
-      method="POST"
-      style={{ width: "30vw", minWidth: "325px" }}
-    >
+    <form id="contactForm" onSubmit={handleSubmit} method="POST">
       <label htmlFor="name">Name</label>
       <input
         type="text"
         id="name"
         value={name}
         onChange={handleChange}
-        style={{
-          width: "100%",
-          padding: "12px",
-          border: "1px solid lightgrey",
-          borderRadius: "3px",
-          boxSizing: "border-box",
-          marginTop: "6px",
-          marginBottom: "16px",
-        }}
+        className="textbox"
       />
       <label htmlFor="organization">Organization</label>
       <input
@@ -55,15 +42,7 @@ const ContactForm = () => {
         id="organization"
         value={organization}
         onChange={handleChange}
-        style={{
-          width: "100%",
-          padding: "12px",
-          border: "1px solid lightgrey",
-          borderRadius: "3px",
-          boxSizing: "border-box",
-          marginTop: "6px",
-          marginBottom: "16px",
-        }}
+        className="textbox"
       />
       <label htmlFor="email">E-mail</label>
       <input
@@ -71,47 +50,11 @@ const ContactForm = () => {
         id="email"
         value={email}
         onChange={handleChange}
-        style={{
-          width: "100%",
-          padding: "12px",
-          border: "1px solid lightgrey",
-          borderRadius: "3px",
-          boxSizing: "border-box",
-          marginTop: "6px",
-          marginBottom: "16px",
-        }}
+        className="textbox"
       />
       <label htmlFor="message">Enter your message</label>
-      <textarea
-        id="message"
-        value={message}
-        onChange={handleChange}
-        style={{
-          height: "200px",
-          width: "100%",
-          resize: "vertical",
-          padding: "12px",
-          border: "1px solid lightgrey",
-          borderRadius: "3px",
-          boxSizing: "border-box",
-          marginTop: "6px",
-          marginBottom: "16px",
-        }}
-      />
-      <input
-        type="submit"
-        value="Submit"
-        style={{
-          width: "100%",
-          border: "1px solid lightgrey",
-          color: "black",
-          backgroundColor: "white",
-          textAlign: "center",
-          textDecoration: "none",
-          display: "inline-block",
-          padding: "7px",
-        }}
-      />
+      <textarea id="message" value={message} onChange={handleChange} />
+      <input type="submit" value="Submit" className="button" />
     </form>
   )
 }

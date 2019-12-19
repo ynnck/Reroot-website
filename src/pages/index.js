@@ -12,21 +12,8 @@ let data = ["analysis", "vizualisation", "learning", "modelling"]
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <div
-        style={{
-          fontSize: "calc(10px + 5vmin)",
-          textAnchor: "middle",
-          width: "28vw",
-        }}
-      >
+    <div className="divPage container">
+      <div className="textRotator">
         data:
         <span>
           <TextLoop
@@ -37,20 +24,13 @@ const IndexPage = () => (
         </span>{" "}
       </div>
     </div>
-    <div style={{ minHeight: "100vh" }}>
+    <div className="divPage">
       <h1>
-        <a
-          name="about"
-          style={{
-            display: "block",
-            position: "relative",
-            top: "calc(-10px - 13vmin)",
-          }}
-        ></a>
+        <a name="about" className="anchorReposition"></a>
         About
       </h1>
-      <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-        <p style={{ width: "48%", minWidth: "325px", textAlign: "justify" }}>
+      <div className="divText">
+        <p>
           Lorem ipsum dolor sit amet, mei nisl adhuc et, impedit gubergren
           dissentiet et sea. Accusamus inciderint quo te, esse meis simul in
           vis. Dolore ridens cu sed, eos at ferri munere mentitum. Sed illud
@@ -60,14 +40,7 @@ const IndexPage = () => (
           theophrastus per ut, an ubique eligendi nec. Quem falli aliquando eam
           ne, has ne tibique scriptorem.
         </p>
-        <p
-          style={{
-            alignSelf: "flex-end",
-            width: "48%",
-            minWidth: "325px",
-            textAlign: "justify",
-          }}
-        >
+        <p className="pAlignRight">
           At usu dolore sadipscing neglegentur, cum justo tempor ad, id vix alia
           veritus. Ea vim summo praesent liberavisse. Ei qui appareat officiis,
           per et vulputate constituto. Per harum mentitum et. Dicunt moderatius
@@ -78,7 +51,7 @@ const IndexPage = () => (
           menandri corrumpit sed, eam habeo assum hendrerit et, ex has
           complectitur conclusionemque. Adhuc semper tritani ea has.
         </p>
-        <p style={{ width: "48%", minWidth: "325px", textAlign: "justify" }}>
+        <p>
           Ancillae reprehendunt quo ex, regione feugiat ea eum. Vis possit
           menandri petentium at, sint quodsi civibus vis ex, vim cu nibh soleat
           docendi. Nec nemore concludaturque eu, in eum dicit utamur. Ad vix
@@ -88,21 +61,12 @@ const IndexPage = () => (
         </p>
       </div>
     </div>
-    <div style={{ minHeight: "calc(100vh - (20px + 14vmin))", width: "100%" }}>
+    <div className="divPage divBottomPage">
       <h1>
-        <a
-          name="contact"
-          style={{
-            display: "block",
-            position: "relative",
-            top: "calc(-10px - 13vmin)",
-          }}
-        ></a>
+        <a name="contact" className="anchorReposition"></a>
         Let's talk!
       </h1>
-      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
-        <ContactForm />
-      </div>
+      <ContactForm />
     </div>
   </Layout>
 )
