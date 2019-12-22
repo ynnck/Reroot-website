@@ -1,3 +1,26 @@
+@media only screen and (max-width: 800px) {
+  .textRotator {
+    width: 26vw;
+  }
+  .divText p:nth-child(even) {
+    align-self: flex-start;
+  }
+  p {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .textRotator {
+    position: absolute;
+    left: 40vw;
+  }
+  .divText p:nth-child(even) {
+    align-self: flex-end;
+  }
+  p {
+    width: 48%;
+  }
+}
 html {
   font-family: Georgia, "Times New Roman", Times, serif;
   --main-font-highlight: gelasio;
@@ -23,7 +46,7 @@ header {
 }
 #logo {
   color: black;
-  margin-top: 1vw;
+  margin-top: 1vh;
   font-size: calc(10px + 7vmin);
   font-weight: normal;
   margin-left: 2vmin;
@@ -34,6 +57,7 @@ header {
   list-style: none;
   justify-content: flex-end;
   font-size: calc(10px + 1vmin);
+  height: calc(10px + 5vmin);
 }
 .headerMenu li a {
   text-decoration: none;
@@ -49,8 +73,10 @@ header {
 .textRotator {
   font-family: var(--main-font-highlight);
   font-size: calc(10px + 5vmin);
-  text-anchor: middle;
-  width: 28vw;
+  z-index: -1;
+}
+.textLoop {
+  z-index: -1;
 }
 .divPage {
   min-height: 100vh;
@@ -71,12 +97,7 @@ header {
   top: calc(-10px - 13vmin);
 }
 p {
-  width: 48%;
-  min-width: 325px;
   text-align: justify;
-}
-.pAlignRight {
-  align-self: flex-end;
 }
 #contactForm {
   width: 30vw;
@@ -115,4 +136,11 @@ textarea {
   text-decoration: none;
   display: inline-block;
   padding: 7px;
+}
+.statusMessage {
+  color: darkred;
+  width: 100%;
+  align-self: flex-end;
+  text-anchor: end;
+  font-size: 15px;
 }

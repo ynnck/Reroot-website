@@ -6,10 +6,11 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import TextLoop from "react-text-loop"
 import ContactForm from "../components/contactForm"
+import mdAbout from "../md-pages/about.md"
 
-let dataTextRotator = ["analysis", "vizualisation", "learning", "modelling"]
+let data = ["analysis", "vizualisation", "learning", "modelling"]
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
@@ -18,7 +19,7 @@ const IndexPage = ({ data }) => {
           data:
           <span>
             <TextLoop
-              children={dataTextRotator}
+              children={data}
               springConfig={{ stiffness: 70, damping: 20 }}
               adjustingSpeed={500}
               className="textLoop"
@@ -31,10 +32,7 @@ const IndexPage = ({ data }) => {
           <a name="about" className="anchorReposition"></a>
           About
         </h1>
-        <div
-          className="divText"
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-        />
+        <div className="divText">{mdAbout}</div>
       </div>
       <div className="divPage divBottomPage">
         <h1>
@@ -48,11 +46,3 @@ const IndexPage = ({ data }) => {
 }
 
 export default IndexPage
-
-export const pageQuery = graphql`
-  query IndexPageQuery {
-    markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
-      html
-    }
-  }
-`
