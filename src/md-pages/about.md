@@ -1,19 +1,15 @@
 We are a team of young professionals passionate about data.
-Coming from a wide variety of fields.
-specializing in consulting.
-Lorem ipsum
-dolor sit amet, mei nisl adhuc et, impedit gubergren dissentiet et
-sea. Accusamus inciderint quo te, esse meis simul in vis. Dolore
-ridens cu sed, eos at ferri munere mentitum. Sed illud utinam consul
-ut. Labores persequeris suscipiantur eu eam, eu his elitr partiendo
-inciderint. Mel tation scripta voluptaria et, mel te solum urbanitas,
-eos admodum molestie epicurei eu. Aliquip molestie theophrastus per
-ut, an ubique eligendi nec. Quem falli aliquando eam ne, has ne
-tibique scriptorem.
+Coming from a wide variety of fields, we approach data from different angles.
+At re:root, data is therefore defined in a broad manner.
+In a business context, it can focus on an organization and business processes
+and monitoring all sorts of data that is present in an organization.
+In a developing context however, it revolves around on the analytical side of data
+and the presentation of data.
+Now, we at re:root are joining forces to help your business reach the next level.
 
-We work closely with you to tackle your most daunting challenges. Our
-broad range of data-driven solutions are designed to your businesses
-specific needs. Providing advanced analytics that can help you turn
+We work closely with you to tackle your most daunting challenges.
+Ourbroad range of data-driven solutions are designed to your businesses specific needs. 
+Providing advanced analytics that can help you turn
 data into the asset you always knew it could be. Applying state of the
 art techniques, tools and technology to ensure that you derive
 powerful insights from your data. 'companies don't have analytics

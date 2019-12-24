@@ -28,6 +28,8 @@ html {
 .divContainer {
   margin: 0 auto;
   max-width: 85vw;
+  display: flex;
+  flex-direction: column;
 }
 h1,
 h2 {
@@ -101,7 +103,7 @@ p {
 }
 #contactForm {
   width: 30vw;
-  min-width: 325px;
+  min-width: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -143,4 +145,7 @@ textarea {
   align-self: flex-end;
   text-anchor: end;
   font-size: 15px;
+}
+footer {
+  align-self: flex-end;
 }
