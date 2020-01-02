@@ -14,10 +14,12 @@
     position: absolute;
     left: 40vw;
   }
-  .divText p:nth-child(even) {
-    align-self: flex-end;
+  .divText p:first-child,
+  .divText p:last-child {
+    align-self: flex-start;
   }
-  p {
+  .divText p {
+    align-self: flex-end;
     width: 48%;
   }
 }
