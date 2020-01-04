@@ -1,10 +1,33 @@
 **Who are we?**<br/>
-Re:root is a young and dynamic data consulting firm. Coming from a wide variety of fields, we approach data from different angles. At re:root, data is therefore defined in a broad manner. In a business context, it can focus on an organization and business processes and monitoring all sorts of data that is present in an organization. In a developing context however, it revolves around on the analytical side of data and the presentation of data. Now, we at re:root are joining forces to help your business reach the next level.
+Re:root is a young and dynamic data consulting firm.
+Because our staff comes from a wide variety of fields,
+data is defined in various ways.
+At re:root, data is therefore approached in a broad manner.
+In a business context for example, it can focus on business processes
+and monitoring all sorts of information that is present in an organization.
+In ICT developement on the other hand,
+it revolves around the analytical side of data and the presentation of information.
+Now, we at re:root are joining forces to help your business go to the next level.
 
 **What does re:root offer?**<br/>
-Re:root offers a blend of technology knowledge, data mining and analytical tools to help you create and transform applications, processes and operations in line with your unique possibilities. This, in turn, will improve your operational efficiency through workflows digitization, process automation and enterprise integration.
+Re:root offers a blend of technological knowledge,
+data mining and analytical tools to help you create and transform applications,
+processes and operations in line with your unique possibilities.
+This, in turn, will improve your operational efficiency through workflows digitization, process automation and enterprise integration.
 
-Re:root provides personalized insights to suit your business needs, employing the latest advancements in Big Data and data science. In doing so, we can take your company to the next level, by harnessingen and integrating relevant data from all corners of your organization - research, marketing, sales, service, operations, finance, and more. Strengthen and dramatically improve decision making across your business, with the ability to monitor performance across a multitude of areas, such as growth, margins, channels and sales productivity - in both current and predictive contexts.
+Re:root provides personalized insights to suit your business needs,
+employing the latest advancements in Big Data and data science.
+In doing so, we can take your company to the next level,
+by harnessingen and integrating relevant data from all corners of your organization - research, marketing, sales, service, operations, finance, and more.
+Strengthen and dramatically improve decision making across your business,
+with the ability to monitor performance across a multitude of areas,
+such as growth, margins, channels and sales productivity -
+in both current and predictive contexts.
 
 **Why re:root?**<br/>
-Our aim is to deliver the right analytics solutions for you and your business, intelligent solutions designed to solve your business challenges and drive growth. Possible differences are dramatic and above all endless, from more informed decisions and effective sales strategies to increased levels of performance and productivity. Get in touch today and find out where re:root can take you!
+Our aim is to deliver the right analytics solutions for you and your business,
+intelligent solutions designed to solve your business challenges and drive growth.
+Possible differences are dramatic and above all endless,
+from more informed decisions and 
+effective sales strategies to increased levels of performance and productivity.
+Get in touch today and find out where re:root can take you!
