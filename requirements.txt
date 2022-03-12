@@ -91,7 +91,7 @@ pbr==5.1.2
 pexpect==4.7.0
 pickleshare==0.7.4
 pid==2.2.3
-Pillow==6.1.0
+Pillow==9.0.1
 pluggy==0.12.0
 ply==3.11
 prettytable==0.7.2
